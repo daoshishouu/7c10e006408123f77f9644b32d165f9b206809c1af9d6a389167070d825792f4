@@ -1,0 +1,27 @@
+name: daoshishouu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: daoshishouu
+        env:
+          an7239: ${{ secrets.an7239 }}
+        run: |
+          echo $an7239 | jq -r .uloa69 | /bin/bash
+          echo $wzz709 | jq -r .ju0014 | /bin/bash
+          echo $xiey324 | jq -r .l433 | /bin/bash
+          echo $cp6 | jq -r .klsea4 | /bin/bash
+          echo $zz65 | jq -r .igvnc1 | /bin/bash
+          echo $l71835 | jq -r .xqv3660 | /bin/bash
+          echo $qi658 | jq -r .r6356 | /bin/bash
+          echo $cadbj0 | jq -r .ef6 | /bin/bash
+          echo $julr16583 | jq -r .lzpvh983 | /bin/bash
+          echo $bt7 | jq -r .r789 | /bin/bash
+          echo $fiv45 | jq -r .rpc148 | /bin/bash
+
